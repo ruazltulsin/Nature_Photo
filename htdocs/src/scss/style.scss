@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'common';
+@import 'modal';
+
+
+@media screen and (max-width:767.98px){
+  @import 'sp';
+
+}
+
+@media screen and (min-width:768px){
+  @import 'pc';
+
+}

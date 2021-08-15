@@ -1,0 +1,23 @@
+$tp_bt: 80px;
+$white: #fff;
+$color_main:#777;
+$color_sub:#444;
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin centerX {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@mixin centerY {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
